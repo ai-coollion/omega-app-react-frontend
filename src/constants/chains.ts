@@ -1,5 +1,5 @@
 export const bscTestnet = {
-  id: 97, // BNB Smart Chain Testnet chain ID
+  id: 97, 
   name: 'BNB Smart Chain Testnet',
   network: 'bsc-testnet',
   nativeCurrency: {
@@ -9,10 +9,10 @@ export const bscTestnet = {
   },
   rpcUrls: {
     default: {
-      http: ['https://data-seed-prebsc-1-s1.bnbchain.org:8545'] //  Get a reliable RPC URL from a source like ChainList or BNB documentation
+      http: ['https://data-seed-prebsc-1-s1.bnbchain.org:8545'] 
     },
     public: {
-      http: ['https://data-seed-prebsc-1-s1.bnbchain.org:8545'] //  Repeat the public RPC URL
+      http: ['https://data-seed-prebsc-1-s1.bnbchain.org:8545'] 
     }
   },
   blockExplorers: {
