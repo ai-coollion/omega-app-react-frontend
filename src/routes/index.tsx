@@ -15,7 +15,6 @@ const Admin = lazy(() => import('@/pages/Admin'))
 const ProjectManagement = lazy(() => import('@/pages/Admin/ProjectManagement'))
 const UserManagement = lazy(() => import('@/pages/Admin/UserManagement'))
 const TaskManagement = lazy(() => import('@/pages/Admin/TaskManagement'))
-const VideoManagement = lazy(() => import('@/pages/Admin/VideoManagement'))
 const Notification = lazy(() => import('@/pages/Settings/Notification'))
 
 const routes = createBrowserRouter([
@@ -86,10 +85,6 @@ const routes = createBrowserRouter([
       {
         path: '/admin/task',
         element: <TaskManagement />
-      },
-      {
-        path: '/admin/video',
-        element: <VideoManagement />
       },
       {
         path: '/admin/notification',
