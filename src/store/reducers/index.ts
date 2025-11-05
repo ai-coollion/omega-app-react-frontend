@@ -1,16 +1,16 @@
-// import { combineReducers } from '@reduxjs/toolkit'
-// import auth from './auth'
-// import notification from './notification'
-// import wallet from './wallet'
+import { combineReducers } from '@reduxjs/toolkit'
+import auth from './auth'
+import notification from './notification'
+import wallet from './wallet'
 
-// const reducer = combineReducers({
-//   auth,
-//   notification,
-//   wallet
-// })
+const reducer = combineReducers({
+  auth,
+  notification,
+  wallet
+})
 
-// export default reducer
+export default reducer
 
-// export * from './auth'
-// export * from './notification'
-// export * from './wallet'
+export * from './auth'
+export * from './notification'
+export * from './wallet'
